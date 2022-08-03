@@ -15,11 +15,13 @@ export function Desafio5() {
   const { list, addItem, numero, parOuImpar } = useDesafio5Controller();
   return (
     <>
-      <button onClick={addItem}  data-testid="btn1">adiciona + 1 item na lista</button>
+      <button onClick={addItem} data-testid="btn1">
+        adiciona + 1 item na lista
+      </button>
       <span data-testid="size">{list.length}</span>
       <ul>
         {list.map((item) => (
-          <Item valor={item} parOuImpar={parOuImpar} />
+          <Item valor={item} parOuImpar={parOuImpar} key={item} />
         ))}
       </ul>
       <p>

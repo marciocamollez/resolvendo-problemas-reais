@@ -4,11 +4,15 @@
 
   Resposta / comentários sobre a sua solução:
 
+  Todo arquivo precisa ser envolvido por uma tag pai. Pode ser usado div ou um fragmento vazio </> 
+
 */
 
 export const Desafio1 = ()=> {
   return (
+    <div>
       <span>item 1</span>
       <span>item 2</span>
+    </div>
   )
 }
