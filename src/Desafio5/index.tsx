@@ -9,6 +9,8 @@ import { useDesafio5Controller } from "./useDesafio5Controller";
 
   Comentários sobre a sua solução:
 
+  A variável renderCounter e numero estavam somando + 1 ao clicar no botao, deixando a conta errada a cada vez que clicava
+
 */
 
 export function Desafio5() {
